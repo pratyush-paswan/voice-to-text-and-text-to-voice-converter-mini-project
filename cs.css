@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient( to bottom right, rgb(41, 5, 243), rgb(201, 44, 16));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #heading {
+    font-size: 80px;
+    color: white;
+  }
+  #text-area {
+    border: 10px solid rgb(224, 12, 217);
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+  }
+  .btn {
+    background-color: rgb(11, 11, 9);
+    color: rgb(224, 222, 222);
+    font-size: 25px;
+    border: 5px solid rgb(224, 12, 217);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    &:hover{
+      background-color: rgb(180, 49, 49);
+    }
+  }  
